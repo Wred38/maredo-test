@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,200&display=swap");
+
+html {
+  font-family: "Monserat", sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  background-image: url(./images/backgrounds/maredo_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  padding: 0 2vw;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-position: -200px;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.head img {
+  width: 400px;
+  height: auto;
+  /* transform: rotate(-10deg); */
+}
+
+.divide-half {
+  display: flex;
+  gap: 2vw;
+  justify-content: space-evenly;
+}
+
+.divide-half > div {
+  padding: 2%;
+  /* border: 1px solid black; */
+  flex: 1;
+}
+
+.divide-half > img{
+  width: 40vw;
+  height: auto;
+  border-radius: 2px;
+
+}
+
+h2 {
+  font-size: xx-large;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.osnovne-info {
+  padding-left: 20px;
+}
+
+li {
+  list-style: square;
+}
+
+.bottom-text {
+  text-align: end;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+#smucanje figure {
+  margin: 16px 0px;
+}
+
+a {
+  color: whitesmoke;
+}
+button > a{
+ color: rgb(52, 52, 52);
+ text-decoration: none;
+ font-size: 16px;
+ font-weight: 700;
+}
+button{
+  background-color: whitesmoke;
+  border-color: rgb(218, 217, 217);
+  padding: 8px 30px
+}
